@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+
+module rsff_tb();
+    reg R;
+    reg S;
+    reg CLK;
+    wire Q;
+    wire Qn;
+    
+    rsff m(
+                 .R(R),
+                 .S(S),
+                 .CLK(CLK),
+                 .Q(Q),
+                 .Qn(Qn)
+                 );
+
+     initial R = 0;
+     initial S = 0;
+     initial CLK = 0;
+
+     always R = #20 ~R;
+     always S = #10 ~S;
+     always CLK = #5 ~CLK;
+     
+     initial begin 
+     #40
+     $finish;
+     end
+
+                         
+      endmodule

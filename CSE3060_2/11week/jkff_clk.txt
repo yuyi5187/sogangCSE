@@ -1,0 +1,21 @@
+`timescale 1ns / 1ps
+
+module rsff(
+    input R,
+    input S,
+    input CLK,
+    output Q,
+    output Qn
+    );
+    
+    reg M, N;
+
+    always @(posedge CLK) begin
+      M <= !(S & CLK);
+      N <= !(R & CLK);
+    end
+    
+    assign Q = !(M & Qn);
+    assign Qn = !(N & Q);
+
+endmodule
