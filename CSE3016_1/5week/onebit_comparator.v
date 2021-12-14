@@ -1,0 +1,19 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module onebit_comparator(
+input a,
+input b,
+output f1,
+output f2,
+output f3,
+output f4
+    );
+    assign f1=~(a^b);
+    assign f2=a^b;
+    assign f3=a&(~b);
+    assign f4=(~a)&b;
+endmodule
