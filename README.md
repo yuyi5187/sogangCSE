@@ -1,7 +1,7 @@
 # sogangCSE
 homework
 
-###[연구 프로젝트1](https://www.notion.so/paper-summary-c3cdbe4d3be44c1ca57f2a3459ee4bc7)
+###[연구 프로젝트1](https://www.notion.so/a59cd51c93974d3ab913eb99e3f91fde)
 
 ###[어셈블리](https://github.com/yuyi5187/sogangCSE/tree/main/CSE3030)
 
