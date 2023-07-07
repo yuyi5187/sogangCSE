@@ -1,5 +1,5 @@
 # sogangCSE
-homework
+Sogang Computer Science and Engineering Course Homework
 
 ###[연구 프로젝트1](https://www.notion.so/a59cd51c93974d3ab913eb99e3f91fde)
 
