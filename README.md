@@ -18,6 +18,6 @@ Sogang Computer Science and Engineering Course Homework
 
 [CSE3040 JAVA 언어](https://github.com/yuyi5187/sogangCSE/tree/main/CSE3040)
 
-CSE4110 데이터베이시스템
+[CSE4110 데이터베이시스템](https://github.com/yuyi5187/sogangCSE/tree/main/CSE4110)
 
 [CSE4175 기초컴퓨터네트워크](https://github.com/yuyi5187/sogangCSE/tree/main/CSE4175)
